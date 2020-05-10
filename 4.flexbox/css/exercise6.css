@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.border {
+  border: 1px solid transparent;
+}
+
+body {
+  min-width:960px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+#header {
+  background-color: orangered;
+  width: 100%;
+  order: 1;
+  flex-shrink: 1;
+}
+
+#aside1 {
+  background-color: yellow;
+  width: 20%;
+  order: 2;
+  flex-shrink: 1;
+}
+
+#aside2 {
+  background-color: violet;
+  width: 20%;
+  order: 3;
+  flex-shrink: 1;
+}
+
+#article {
+  background-color: rgb(64, 187, 224);
+  width: 59%;
+  order: 3;
+  flex-shrink: 1;
+}
+
+#footer {
+  background-color: rgb(47, 255, 193);
+  width: 100%;
+  order: 4;
+  flex-shrink: 1;
+}

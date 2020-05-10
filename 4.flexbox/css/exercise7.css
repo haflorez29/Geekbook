@@ -1,0 +1,77 @@
+section {
+  display: flex;
+  max-width: 840px;
+  height: 7vw;
+  margin: 5vh 5vw;
+  border: 1px solid transparent;
+  font-family: sans-serif;
+}
+
+.bordergray {
+  border: 1px solid grey;
+  background-color: grey;
+  border-radius: 2px;
+  padding: 2px;
+}
+
+#presupuesto {
+  border: 1px solid grey;
+  border-radius: 2px;
+  padding: 2px;
+}
+
+img {
+  height: 100%;
+  width: 10%;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+}
+
+.article {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 5px 0px 5px;
+  height: 100%;
+  width: 50%;
+  
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#a {
+  display: flex;
+  flex-grow: 0;
+}
+
+#score {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  font-size: 10px;
+  padding: 0px 10% 10% 10%;
+}
+
+#h3 {
+  margin: 0;
+
+}
+
+#points {
+  height: 20%;
+  width: 20%;
+  border: 1px solid gray;
+  background-color: gray;
+  padding: 5px;
+  border-radius: 2px;
+  margin: 0px 0px 0px 5px;
+}
+
+#name {
+  flex-grow: 2;
+}
+
+

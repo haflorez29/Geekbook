@@ -1,0 +1,16 @@
+footer {
+  padding-bottom: 25px;
+ 
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  background-color: cadetblue;
+  padding-bottom: 5px;
+  width: 95vw;
+}
+
+li {
+  display: inline;
+}

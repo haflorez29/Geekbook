@@ -1,0 +1,32 @@
+body { 
+  box-sizing: border-box;
+  border: 8px solid;
+}
+
+div {
+  margin-top: 106px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.primer_texto {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.titulo {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.parafo {
+  font-size: 18px;
+  margin-bottom: 27px;
+}
+
+a {
+  padding: 8px 16px 0px 16px;
+  margin-left: -16px;
+}

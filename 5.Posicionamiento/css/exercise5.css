@@ -1,0 +1,30 @@
+.div1 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  padding: 40px;
+  border: 2px solid;
+  box-sizing: border-box;  
+  background-color: yellow;
+  transform:translate(50vh, 50vw) ;
+}
+
+.div2 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  padding: 75px;
+  box-sizing: border-box;
+  background-color: green;
+  transform:translate(50vh, 50vw) ;
+}
+
+.div3 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border: 20px solid;
+  box-sizing: border-box;
+  background-color: blue;
+  transform:translate(50vh, 50vw) ;
+}

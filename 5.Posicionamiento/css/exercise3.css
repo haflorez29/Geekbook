@@ -1,0 +1,11 @@
+header {
+  position: fixed;
+  height: 50px;
+  width: 100vw;
+  background-color: purple;
+}
+
+main {
+  position: relative;
+  top: 50px;
+}

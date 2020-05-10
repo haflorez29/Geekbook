@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+   .box {
+    background: red;
+    height: 100px;
+}
+@media all and (min-width:550px) {
+    .box {
+        background: blue;
+    }
+}
+
+/* en simulador de dispositivos moviles queda azul porque no tiene el meta data del viewport  */
+
+/* ejercicio 5 adicionando el tag metaviewport el background si asume el background red */
+  </style>
+    <meta charset="UTF-8">
+    <title>Viewport Sample</title>
+    <link rel="stylesheet" href="css/exercise4.css">
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

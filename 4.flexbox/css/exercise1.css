@@ -1,0 +1,11 @@
+section {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+article {
+  border: 1px solid purple;
+  padding: 20px;
+}
+/* eje principal vertical */

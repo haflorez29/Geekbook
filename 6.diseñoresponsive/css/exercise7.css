@@ -1,0 +1,14 @@
+body {
+  background-color: red;
+}
+@media all and (min-width:481px) and (max-width:768px){
+  body {
+    background-color: yellow;
+  }
+
+}
+@media all and (min-width:769px){
+  body {
+    background-color: green;
+  }
+}
