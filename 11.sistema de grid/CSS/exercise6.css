@@ -1,0 +1,14 @@
+.bg {
+  background-color: rgb(25, 210, 216);
+  margin: 5px;
+}
+
+.col {
+  height: 1rem;
+}
+
+div {
+  margin: 10px;
+  padding: 10px;
+}
+

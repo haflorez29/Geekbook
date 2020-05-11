@@ -1,0 +1,25 @@
+.item1,
+.item2,
+.item3,
+.item4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.item1 {
+  background-color: pink;
+}
+
+.item2 {
+  background-color: purple;
+}
+
+.item3 {
+  background-color: rgb(221, 68, 119);
+}
+
+.item4 {
+  background-color: rgb(139, 231, 243);
+}

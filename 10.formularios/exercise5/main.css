@@ -1,0 +1,65 @@
+
+.form-select select {
+  background: #fff url('https://www.freeiconspng.com/uploads/arrow-up-icon-23.png') no-repeat;
+  background-size: 13px;
+  background-position:  right 5px center;
+  -webkit-appearance: none;
+}
+
+form {
+  width: 300px;
+  background-color: rgb(202, 210, 216);
+  font-weight: bold;
+}
+
+fieldset {
+  border: 1px solid transparent;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+}
+
+.nameinput {
+  width: 45%;
+}
+
+input {
+  width: 100%;
+}
+
+#usuario {
+  text-align: right;
+}
+
+.nacimiento {
+  display: grid;
+  grid-template-columns: 20% 20% 30%;
+  grid-gap:30px  
+}
+
+.select {
+  width: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+.selectubication {
+  width: 100%;
+}
+
+.submit {
+  width: 100px;
+  background-color: rgb(53, 136, 231);
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  margin: 10px;
+  color: white;
+  border-radius: 5%;
+}
+
+.send {
+  display: flex;
+  justify-content: flex-end;
+}
