@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+div {  
+  display: flex;
+  width: 20%;
+  border: grey solid 1px ;
+  border-radius: 5px;
+  align-content: center;
+  justify-content: center;  
+}
+
+div:hover {
+  animation-duration: 20s;
+  animation-name: intro;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-direction: normal;
+}
+
+@keyframes intro {
+  0% {
+    transform: translate(0px, 600%);
+  }
+
+  50% {
+    transform: translate(0px, 150%);
+  }
+
+  100% {
+    transform: translate(0px, 40%);
+  }
+} 
